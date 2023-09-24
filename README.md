@@ -4,3 +4,7 @@ Simple executable that uses the user32 function `LockWorkStation` to lock the wo
 ## Operating System Support
 
 As the API we use has support from Windows XP onward, this application supports Windows XP onward.
+
+## I/O and Exit Status
+
+Takes no input from standard input and outputs nothing to standard output or standard error. The exit code will be either `0` (for success) or the error code that `LockWorkStation` returns.
